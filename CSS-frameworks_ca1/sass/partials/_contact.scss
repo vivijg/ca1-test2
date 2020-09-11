@@ -1,0 +1,15 @@
+
+
+.form-style{
+    background-image: radial-gradient(map-get($colours, white),map-get($colours, grey));
+    padding:20px;
+    width: 100%;
+}
+
+
+
+.list-group-item{
+    border:none; 
+    background-color: transparent;
+    line-height: 10px;
+}

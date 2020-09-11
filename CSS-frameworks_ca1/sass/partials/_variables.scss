@@ -1,0 +1,15 @@
+$font-primary:"Lato", sans-serif;
+$font-headings:"Playfair Display", serif;
+
+
+$colours: (    
+    white: #fff,
+    grey: #E5E5E5,
+    secondary: #E92569,
+    primary:#EFEFEF,
+    hover: #767676
+    );
+
+    @function getColour($colour) {
+        @return map-get($colours, $colour);
+    }

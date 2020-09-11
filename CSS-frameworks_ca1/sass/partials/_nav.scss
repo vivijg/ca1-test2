@@ -1,0 +1,52 @@
+.navbar-brand, .heading{
+    font-size: 30px;
+    color: #E92569;
+    font-family: $font-headings;
+    margin-left: 25px;
+}
+
+.navbar{
+    background: getColour(primary);
+    color:black;
+    
+    
+   
+}
+
+.navbar-light .navbar-nav .navbar-link{
+    color:white;
+    font-size: 15px;
+}
+
+.nav-item :hover{
+    background-color: white;
+    border-radius: 10px;
+    
+}
+
+.navbar-collapse {
+    z-index: 1;
+}
+
+.tab-content{
+    background-color: white;
+    margin-bottom: 180px;
+    padding: 20px;
+    border-radius: 0 0px 18px 18px;
+    height: 220px;
+}
+
+
+
+@media only screen and (min-width: 400px){
+
+
+    .tab-content{
+        height: 300px;
+        justify-content: center; 
+        align-items: center;
+        display: block;
+        
+    }
+    
+}
